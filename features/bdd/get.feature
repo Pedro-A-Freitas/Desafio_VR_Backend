@@ -7,5 +7,5 @@ Funcionalidade: Pesquisar estabelecimentos
 
     Cenario: Buscar informacoes de restaurantes
         Dado que o usuário consulte informacoes dos restaurantes
-        Quando ele realizar a pesquisa
-        Então o json deve retornar os dados dos restaurentes
+        Quando ele pesquisa por tipo de estabelecimento
+        Então deve retornar um tipo aleatório
